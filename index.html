@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Explore India - Discover beautiful travel destinations across India.">
+    <title>Explore India | Travel Destinations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ================= NAVBAR ================= -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">
+                Explore<span>India</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#destinations">Destinations</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#gallery">Gallery</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <button id="themeBtn"
+                        class="theme-btn"
+                        aria-label="Change theme">
+                    🌙
+                </button>
+                <button id="menuBtn"
+                        class="menu-btn"
+                        aria-label="Open menu">
+                    ☰
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- ================= HERO ================= -->
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <p class="hero-small">
+                    DISCOVER • EXPLORE • EXPERIENCE
+                </p>
+                <h1>
+                    Explore The
+                    <span>Beauty of India</span>
+                </h1>
+                <p class="hero-text">
+                    Discover breathtaking destinations, rich culture,
+                    beautiful landscapes and unforgettable experiences
+                    across India.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#destinations"
+                       class="primary-btn">
+                        Explore Destinations →
+                    </a>
+                    <a href="#about"
+                       class="secondary-btn">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= DESTINATIONS ================= -->
+
+        <section id="destinations"
+                 class="section destinations-section">
+            <div class="section-heading">
+                <p>EXPLORE INDIA</p>
+                <h2>
+                    Popular Destinations
+                </h2>
+                <span>
+                    Find your next unforgettable journey.
+                </span>
+            </div>
+
+            <!-- Search -->
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search destination..."
+                    aria-label="Search destination">
+            </div>
+            <!-- Destination Cards -->
+            <div class="destination-grid"
+                 id="destinationGrid">
+                <!-- Goa -->
+                <article class="destination-card"
+                         data-name="goa">
+                    <div class="card-image">
+                        <img src="images/goa.jpeg"
+                             alt="Beautiful Goa beach"
+                             loading="lazy">
+                        <span class="location-tag">
+                            Goa
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Goa</h3>
+                        <p>
+                            Relax on beautiful beaches,
+                            enjoy sunsets and experience
+                            vibrant coastal life.
+                        </p>
+
+                        <button class="explore-btn"
+                                data-place="Goa">
+                            Explore →
+                        </button>
+                    </div>
+                </article>
+                <!-- Kashmir -->
+
+                <article class="destination-card"
+                         data-name="kashmir">
+                    <div class="card-image">
+                        <img src="images/kashmir.jpeg"
+                             alt="Beautiful Kashmir mountains"
+                             loading="lazy">
+                        <span class="location-tag">
+                            Kashmir
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Kashmir</h3>
+                        <p>
+                            Discover snow-covered mountains,
+                            peaceful lakes and breathtaking
+                            natural beauty.
+                        </p>
+                        <button class="explore-btn"
+                                data-place="Kashmir">
+                            Explore →
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Rajasthan -->
+
+                <article class="destination-card"
+                         data-name="rajasthan">
+
+                    <div class="card-image">
+
+                        <img src="images/rajasthan.jpeg"
+                             alt="Rajasthan palace"
+                             loading="lazy">
+
+                        <span class="location-tag">
+                            Rajasthan
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Rajasthan</h3>
+                        <p>
+                            Experience royal palaces,
+                            magnificent forts and colourful
+                            traditions.
+                        </p>
+                        <button class="explore-btn"
+                                data-place="Rajasthan">
+                            Explore →
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Kerala -->
+
+                <article class="destination-card"
+                         data-name="kerala">
+
+                    <div class="card-image">
+                        <img src="images/kerala.jpeg"
+                             alt="Kerala backwaters"
+                             loading="lazy">
+                        <span class="location-tag">
+                            Kerala
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Kerala</h3>
+                        <p>
+                            Enjoy peaceful backwaters,
+                            lush greenery and beautiful
+                            natural landscapes.
+                        </p>
+                        <button class="explore-btn"
+                                data-place="Kerala">
+                            Explore →
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Ladakh -->
+
+                <article class="destination-card"
+                         data-name="ladakh">
+                    <div class="card-image">
+                        <img src="images/ladakh.jpeg"
+                             alt="Ladakh mountains"
+                             loading="lazy">
+                        <span class="location-tag">
+                            Ladakh
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Ladakh</h3>
+                        <p>
+                            Explore dramatic mountains,
+                            peaceful monasteries and
+                            unforgettable roads.
+                        </p>
+                        <button class="explore-btn"
+                                data-place="Ladakh">
+                            Explore →
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Sikkim -->
+
+                <article class="destination-card"
+                         data-name="sikkim">
+                    <div class="card-image">
+                        <img src="images/sikkim.jpeg"
+                             alt="Sikkim mountains"
+                             loading="lazy">
+                        <span class="location-tag">
+                            Sikkim
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Sikkim</h3>
+                        <p>
+                            Discover peaceful valleys,
+                            mountain views and beautiful
+                            Himalayan scenery.
+                        </p>
+                        <button class="explore-btn"
+                                data-place="Sikkim">
+                            Explore →
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Andaman -->
+
+                <article class="destination-card"
+                         data-name="andaman">
+                    <div class="card-image">
+                        <img src="images/andaman.jpeg"
+                             alt="Andaman beach"
+                             loading="lazy">
+                        <span class="location-tag">
+                            Andaman
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Andaman</h3>
+                        <p>
+                            Experience crystal-clear water,
+                            tropical beaches and island
+                            adventures.
+                        </p>
+                        <button class="explore-btn"
+                                data-place="Andaman">
+                            Explore →
+                        </button>
+                    </div>
+                </article>
+            </div>
+            <p id="noResults"
+               class="no-results">
+                No destination found.
+            </p>
+        </section>
+
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about"
+                 class="about-section">
+            <div class="about-image">
+                <img src="images/hero.jpeg"
+                     alt="Beautiful Indian travel destination"
+                     loading="lazy">
+            </div>
+
+            <div class="about-content">
+                <p class="section-label">
+                    ABOUT EXPLORE INDIA
+                </p>
+                <h2>
+                    Travel. Explore.
+                    <span>Create Memories.</span>
+                </h2>
+
+                <p>
+                    Explore India is a travel destination
+                    website created to help travellers discover
+                    some of the most beautiful places across India.
+                </p>
+
+                <p>
+                    From peaceful mountains and beaches to
+                    royal palaces and natural landscapes,
+                    India offers countless experiences waiting
+                    to be explored.
+                </p>
+
+                <a href="#destinations"
+                   class="primary-btn dark-btn">
+                    Start Exploring
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- ================= FEATURES ================= -->
+
+        <section class="section">
+            <div class="section-heading">
+                <p>TRAVEL WITH CONFIDENCE</p>
+                <h2>
+                    Why Explore With Us?
+                </h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        ✈️
+                    </div>
+                    <h3>
+                        Amazing Destinations
+                    </h3>
+
+                    <p>
+                        Discover beautiful places
+                        across India.
+                    </p>
+
+                </div>
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        🏔️
+                    </div>
+                    <h3>
+                        Unique Experiences
+                    </h3>
+                    <p>
+                        Find experiences that make
+                        every journey memorable.
+                    </p>
+                </div>
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        💰
+                    </div>
+
+                    <h3>
+                        Budget Friendly
+                    </h3>
+
+                    <p>
+                        Explore amazing destinations
+                        without overspending.
+                    </p>
+                </div>
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        ❤️
+                    </div>
+
+                    <h3>
+                        Create Memories
+                    </h3>
+
+                    <p>
+                        Turn every trip into a
+                        beautiful memory.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= GALLERY ================= -->
+
+        <section id="gallery"
+                 class="section gallery-section">
+            <div class="section-heading">
+                <p>TRAVEL MOMENTS</p>
+                <h2>
+                    Explore Through Our Gallery
+                </h2>
+            </div>
+            <div class="gallery-grid">
+
+                <div class="gallery-item large">
+                    <img src="images/goa.jpeg"
+                         alt="Goa beach">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/kashmir.jpeg"
+                         alt="Kashmir mountains">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/rajasthan.jpeg"
+                         alt="Rajasthan palace">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/kerala.jpeg"
+                         alt="Kerala backwaters">
+                </div>
+
+                <div class="gallery-item large">
+                    <img src="images/ladakh.jpeg"
+                         alt="Ladakh landscape">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/sikkim.jpeg"
+                         alt="Sikkim landscape">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact"
+                 class="contact-section">
+            <div class="section-heading">
+                <p>PLAN YOUR JOURNEY</p>
+                <h2>
+                    Let's Start Your Next Adventure
+                </h2>
+                <span>
+                    Have a question? Send us a message.
+                </span>
+            </div>
+
+            <form id="contactForm"
+                  class="contact-form">
+                <div class="form-row">
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Your Name">
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Your Email">
+
+                </div>
+
+                <textarea
+                    id="message"
+                    placeholder="Tell us about your travel plan...">
+                </textarea>
+                <button type="submit"
+                        class="primary-btn">
+                    Send Message →
+                </button>
+
+                <p id="formMessage"
+                   class="form-message">
+                </p>
+
+            </form>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div>
+                <a href="#home"
+                   class="logo footer-logo">
+                    Explore<span>India</span>
+                </a>
+                <p>
+                    Discover. Explore. Experience.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#destinations">
+                    Destinations
+                </a>
+                <a href="#about">
+                    About
+                </a>
+                <a href="#contact">
+                    Contact
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                © 2026 Explore India.
+                Designed & Developed using
+                HTML, CSS & JavaScript.
+            </p>
+        </div>
+    </footer>
+    <!-- Back To Top -->
+
+    <button id="topBtn"
+            class="top-btn"
+            aria-label="Back to top">
+        ↑
+    </button>
+    <script src="script.js"></script>
+</body>
+</html>
