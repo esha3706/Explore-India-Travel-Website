@@ -100,10 +100,18 @@ The website is designed to provide a smooth user experience across:
 - Database support
 - User authentication
 
-👩‍💻 
-Esha Dutta
-BCA Student | Aspiring Frontend Developer
+🎓 About the Developer
+    Esha Dutta , BCA Student | Aspiring Frontend Developer
+This project was created as part of my learning journey to gain practical experience in GUI development, Website making experience and development.
 
 📄 License
 -----------------
 This project is created for educational and portfolio purposes.
+
+⭐ Support
+-----------------
+If you find this project useful or interesting, ⭐star the repository.
+
+|| Thank you for visiting my project!!! ||
+
+
